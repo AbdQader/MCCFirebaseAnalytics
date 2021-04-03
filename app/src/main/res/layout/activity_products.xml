@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".ProductsActivity">
+
+    <TextView
+        android:id="@+id/btnProduct1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Product 1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="#F44336"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/btnProduct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Product 2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="#F44336"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/btnProduct3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Product 3"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="#F44336"
+        android:textAlignment="center" />
+
+</LinearLayout>
